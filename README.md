@@ -1,7 +1,7 @@
 # reprd
 
 a desktop workbench for hardware repairers. track your fixes, manage parts queues,
-log your repair journal, and keep your toolbox organized -- all in one place.
+log your repair journal, and keep your toolbox organized, all in one place.
 
 built with tauri (rust + web). fast, native, and runs locally.
 
@@ -12,8 +12,7 @@ built with tauri (rust + web). fast, native, and runs locally.
 
 ## who is this for
 
-if you fix computers, phones, or electronics -- as a hobby or professionally -- and
-you are tired of juggling spreadsheets, notes apps, and browser tabs to track your
+if you fix computers, phones, or electronics as a hobby or professionally and you are tired of juggling spreadsheets, notes apps, and browser tabs to track your
 workflow, reprd is built for you.
 
 ---
@@ -50,7 +49,7 @@ and rose pine.
 
 ### pre-built binaries
 
-[coming soon -- check the releases page]
+[coming soon. check the releases page]
 
 ### build from source
 
