@@ -10,6 +10,10 @@ built with tauri (rust + web). fast, native, and runs locally.
 
 ---
 
+<img width="1863" height="984" alt="image" src="https://github.com/user-attachments/assets/91d91120-be74-4e46-92e7-69b5b4426db8" />
+
+---
+
 ## who is this for
 
 if you fix computers, phones, or electronics as a hobby or professionally and you are tired of juggling spreadsheets, notes apps, and browser tabs to track your
