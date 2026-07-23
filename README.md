@@ -44,7 +44,7 @@ get a quick overview of completed repairs, active items, parts in transit, and
 total costs.
 
 **themes**
-ships with gruvbox, catppuccum, tokyonight, nord, dracula, solarized, onedark,
+ships with gruvbox, catppuccin, tokyonight, nord, dracula, solarized, onedark,
 and rose pine.
 
 ---
