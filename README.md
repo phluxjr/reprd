@@ -53,7 +53,7 @@ and rose pine.
 
 ### pre-built binaries
 
-[coming soon. check the releases page]
+built by [github actions](.github/workflows/release.yml), check releases
 
 ### build from source
 
