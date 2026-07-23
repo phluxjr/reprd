@@ -72,3 +72,10 @@ cargo tauri build      # production build
 ## license
 
 gpl-v3-or-later. see LICENSE for details.
+
+---
+
+## bugs / feedback
+
+open an issue on [github](https://github.com/phluxjr/reprd/issues). early alpha so expect rough edges.
+

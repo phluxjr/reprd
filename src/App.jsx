@@ -1288,6 +1288,17 @@ function SearchView() {
 function SettingsView({ settings, setSettings }) {
   const [customBg, setCustomBg] = useState(settings.customTheme?.bg||"");
   const [customAccent, setCustomAccent] = useState(settings.customTheme?.accent||"");
+  const [appVersion, setAppVersion] = useState("loading...");
+
+  useEffect(() => {
+    fetch("./VERSION.txt")
+      .then((res) => {
+        if (!res.ok) throw new Error("failed to load version");
+        return res.text();
+      })
+      .then((text) => setAppVersion(text.trim()))
+      .catch(() => setAppVersion("unknown"));
+  }, []);
 
   const applyCustom = () => {
     if (!customBg||!customAccent) return;
@@ -1353,6 +1364,11 @@ function SettingsView({ settings, setSettings }) {
           </div>
           enable custom html titlebar
         </label>
+      </div>
+
+      <div style={{ marginBottom:24 }}>
+        <div style={{ fontSize:11, color:"var(--r-muted)", fontFamily:"monospace", marginBottom:8 }}>// version</div>
+        <p style={{ fontSize:12, color:"var(--r-text)", fontFamily:"monospace" }}>app version: {appVersion}</p>
       </div>
 
       <div>
